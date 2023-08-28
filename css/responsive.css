@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .menu{  
+        position: absolute;
+        display: none;
+        top: 65px;
+        width: 100%;
+        background: #000; 
+    } 
+    .menu li{
+        padding: 15px 0;
+        border-bottom: 1px solid #ffffff8e;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .collapse_btn{ 
+        display: block;  
+    }
+    /* Hero Start */
+    .hero_con_main h1,
+    .hero_con_main h2{
+        font-size: 45px; 
+        line-height: 50px;
+    }
+.hero_con_main p{
+    width: 100%;
+}
+}
+@media screen and (max-width: 576px){
+    .hero_con_main h1,
+    .hero_con_main h2{
+        font-size: 35px; 
+    }
+}
